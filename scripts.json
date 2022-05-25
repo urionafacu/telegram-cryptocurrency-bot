@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"dev": "deno run --unstable --watch --allow-net --allow-write --allow-read --allow-env --import-map=\"import_map.json\" index.ts"
+	}
+}
