@@ -1,11 +1,9 @@
-import { Bot } from "telegram";
-import { API_KEY, CHAT_ID } from "./config.ts";
+import bot from "./bot.ts";
+import { daily } from "cron";
+import { ping } from "jobs";
 
-const bot = new Bot(API_KEY!);
+// Every days check if the bot is alive
+daily(ping);
 
-bot.telegram.sendMessage({
-  chat_id: CHAT_ID!,
-  text: "Hello World!",
-});
-
+// Run the bot
 await bot.launch();
