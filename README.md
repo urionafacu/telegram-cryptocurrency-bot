@@ -2,9 +2,9 @@
 
 ## Technologies I have used
 
- - Deno
- - Telegram API
- - Velociraptor CLI
+- Deno
+- Telegram API
+- Velociraptor CLI
 
 ## Setup
 
@@ -16,4 +16,4 @@ $ vr dev
 
 ### To Do:
 
- - Make request every 10 minutes about cryptocurrency (DAI) for price
+- Make request every 10 minutes about cryptocurrency (DAI) for price
