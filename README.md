@@ -16,4 +16,6 @@ $ vr dev
 
 ### To Do:
 
-- Make request every 10 minutes about cryptocurrency (DAI) for price
+- [x] Make request every 10 minutes about cryptocurrency (DAI) for price
+
+- [ ] Make daily request for check price of DAI and send me a message
