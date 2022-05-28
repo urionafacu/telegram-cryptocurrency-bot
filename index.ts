@@ -8,7 +8,7 @@ sendMessage('Bot is online');
 daily(ping);
 
 // Send me message at 9:00 AM every day
-cron('* * 12', () => {
+cron('* * 12 * * *', () => {
 	sendMessage('Bot is alive');
 });
 
